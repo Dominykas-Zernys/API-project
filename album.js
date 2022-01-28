@@ -4,7 +4,7 @@ const queryParameters = window.location.search
 const urlParameters = new URLSearchParams(queryParameters)
 const albumid = urlParameters.get('album_id')
 
-// ALBUMO PAVADINIMO SUKURIMAS
+// ALBUMO PAVADINIMO SUKŪRIMAS
 
 fetch('https://jsonplaceholder.typicode.com/albums/' + albumid)
     .then(res => res.json())
