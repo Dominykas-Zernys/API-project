@@ -1,0 +1,124 @@
+*{
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+*::first-letter{
+    text-transform: capitalize;
+}
+
+body{
+    background-image: linear-gradient(to right, rgb(234, 234, 243), rgb(239, 231, 240));
+}
+
+.wrapper{
+    padding: 4rem 5rem;
+    background-image: linear-gradient(rgb(192, 192, 228), rgb(209, 183, 221), rgb(192, 205, 228));
+    margin: 2rem 7rem;
+    box-shadow: 0px 0px 10px 8px rgb(141, 141, 151) ;
+}
+
+#full-name{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 4.5rem;
+}
+
+#user-info-flex-secondary{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 5rem 5rem;
+    gap: 5%;
+    row-gap: 15%;
+}
+
+#user-info-flex-secondary{
+    justify-content: space-between;
+    flex-flow: row;
+    flex-wrap: wrap;
+    padding-bottom: 40px;
+}
+
+.user-info-unit{
+    height: auto;
+    background-color: rgb(194, 187, 187);
+    box-shadow: 0px 0px 15px 1px rgb(119, 113, 113);
+    border-radius: 20px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+}
+
+.info-header{
+    font-weight: bold
+}
+
+.post-link{
+    display: block;
+    color: black;
+    text-decoration: none;
+    background-color: rgb(176, 211, 195);
+    padding: 15px 15px 15px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px 1px rgb(49, 104, 78);
+    transition: background-color 0.5s linear
+}
+
+.post-link:hover{
+    background-color: rgb(127, 209, 172);
+    transition: background-color 0.2s linear;
+}
+
+.post-title{
+    margin-top: 0;
+    margin-bottom: 12px;
+
+}
+
+.post-body{
+    font-size: 13px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+#photo-albums-wrapper{
+    padding-top: 30px;
+}
+
+#photo-albums{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3%;
+}
+
+.album-wrapper{
+    width: 30%;
+    background-color: rgb(176, 209, 211);
+    margin-bottom: 10px;
+    padding: 0px;
+    text-align: center;
+    border-radius: 7px;
+    box-shadow: 0 0 10px 1px rgb(86, 103, 104);
+    transition: background-color 0.5s linear
+}
+
+.album-wrapper:hover{
+    background-color: rgb(127, 206, 209);
+    transition: background-color 0.2s linear;
+}
+
+.album-link{
+    text-decoration: none;
+    color: black;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.album-title{
+    margin: 0;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}

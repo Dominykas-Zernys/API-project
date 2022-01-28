@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User</title>
+    <link rel="stylesheet" href="Normalize.css">
+    <link rel="stylesheet" href="user.css">
+    <script src="user.js" defer></script>
+</head>
+<body>
+    <main class="wrapper">
+        <header id="header">
+
+            <section id="user-info-flex-primary">
+                <h2 id="full-name"></h2>
+            </section>
+            <section id="user-info-flex-secondary">
+                <div id="user-name-wrapper" class="user-info-unit">
+                    <div class="info-header">Username: </div>
+                    <div id="user-name"></div> 
+                </div>
+                <div id="email-wrapper" class="user-info-unit">
+                    <div class="info-header">Email: </div>
+                    <a id="email" href=""></a> 
+                </div>
+                <div id="address" class="user-info-unit">
+                    <div class="info-header">Address:</div>
+                    <a href="" id="address-link">
+                        <span>
+                            <span id="street"></span>
+                            <span> </span>
+                            <span id="house-number"></span>
+                        </span>
+                        <span>
+                            <span id="city"></span>
+                            <span> </span>
+                            <span id="post-code"></span>
+                        </span>
+                    </a>
+                </div>
+                <div id="phone" class="user-info-unit">
+                    <div class="info-header">Tel.: </div>
+                    <a id="phone-number"></a> 
+                </div>
+                <div id="website" class="user-info-unit">
+                    <div class="info-header">Website:</div>
+                    <div>
+                        <a href="" id="website-link"></a>
+                    </div>
+                </div>
+                <div id="company" class="user-info-unit">
+                    <div class="info-header">Company:</div>
+                    <div id="company-name"></div>
+                </div>
+            </section>
+        </header>
+        <section id="posts">
+            <h2>User Posts:</h2>
+        </section>
+        <section id="photo-albums-wrapper">
+            <h2>Photo albums:</h2>
+            <div id="photo-albums"></div>
+        </section>
+    </main>
+</body>
+</html>
+
+

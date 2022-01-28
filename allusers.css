@@ -1,0 +1,35 @@
+*{
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+*::first-letter{
+    text-transform: capitalize;
+}
+
+body{
+    background-image: linear-gradient(to right, rgb(234, 234, 243), rgb(239, 231, 240));
+}
+
+.wrapper{
+    padding: 4rem 5rem;
+    background-image: linear-gradient(rgb(192, 192, 228), rgb(209, 183, 221), rgb(192, 205, 228));
+    margin: 2rem 7rem;
+    box-shadow: 0px 0px 10px 8px rgb(141, 141, 151) ;
+}
+
+.user-link{
+    display: block;
+    color: black;
+    text-decoration: none;
+    background-color: rgb(176, 211, 195);
+    padding: 15px 15px 15px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px 1px rgb(49, 104, 78);
+    transition: background-color 0.5s linear
+}
+
+.user-link:hover{
+    background-color: rgb(127, 209, 172);
+    transition: background-color 0.2s linear;
+}
