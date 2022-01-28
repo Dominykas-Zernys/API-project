@@ -1,0 +1,56 @@
+*{
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+*::first-letter{
+    text-transform: capitalize;
+}
+
+body{
+    background-image: linear-gradient(to right, rgb(234, 234, 243), rgb(239, 231, 240));
+    padding: 0rem 7rem
+}
+
+.wrapper{
+    background-image: linear-gradient(rgb(192, 192, 228), rgb(209, 183, 221), rgb(192, 205, 228));
+    box-shadow: 0px 0px 10px 8px rgb(141, 141, 151);
+}
+
+#page-title{
+    text-align: center;
+    padding-top: 70px;
+    font-size: 2.8rem;
+}
+
+.nav-wrapper{
+    padding: 4rem 2rem 6rem;
+    margin: 0 4rem 3.5rem;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    justify-items: center;
+}
+
+.albums-wrapper{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    margin-top: 35px;
+}
+
+.nav-link-wrapper > a{
+    background-color: rgb(187, 140, 199);
+    padding: 2vh 10vw;
+    border-radius: 20px;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.8s 0.15s;
+    color: black;
+    text-decoration: none;
+}
+
+.nav-link-wrapper > a:hover{
+    background-color: rgb(114, 68, 158);
+    color: rgb(202, 190, 212);
+    transition: all 0.8s 0.15s;
+}

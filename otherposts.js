@@ -13,7 +13,7 @@ fetch('https://jsonplaceholder.typicode.com/users/' + userid + '/posts')
         posts.map(post => {
             const createPostWrapper = document.createElement('div')
             createPostWrapper.classList.add('post-wrapper')
-            createPostWrapper.innerHTML =   `<a class="post-link" href="">
+            createPostWrapper.innerHTML =   `<a class="post-link" href="post.html?post_id=${post.id}">
                                                 <div class="post-title-wrapper"><h3 class="post-title">${post.title}</h3><h4 class="post-id">${post.id}</h4></div>
                                                 <p class="post-body">${post.body}</p>
                                             </a>`

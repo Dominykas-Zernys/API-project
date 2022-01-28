@@ -18,6 +18,24 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 4rem;
+}
+
+#album-title{
+    margin-top: 3.8rem;
+}
+
+#author-name{
+    margin-top: 2.5rem;
+}
+
+#author-name-link{
+    text-decoration: none;
+    color: black;
+}
+
+#author-name-link:hover{
+    color: rgb(123, 82, 161);
 }
 
 #gallery{
@@ -26,6 +44,7 @@ body{
     justify-content: left;
     align-content: center;
     gap: 1vw;
+    padding-top: 4.5rem;
 }
 
 #gallery::after {
@@ -35,4 +54,25 @@ body{
 
 figcaption{
     width: 150px;
+}
+
+#all-albums-link{
+    text-decoration: none;
+    font-size: 1.5rem;
+    background-color: rgb(174, 164, 184);
+    padding: 1rem 3rem;
+    border-radius: 40px;
+    box-shadow: 0 0 10px 3px rgb(64, 77, 75);
+    transition: background-color 0.5s;
+}
+
+#all-albums-link:hover{
+    background-color: rgb(200, 166, 231);
+    transition: background-color 0.5s;
+    margin-bottom: 15px;
+}
+
+#all-albums-link:active{
+    background-color: rgb(24, 156, 218);
+    color: brown;
 }

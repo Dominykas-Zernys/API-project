@@ -36,6 +36,6 @@ fetch('https://jsonplaceholder.typicode.com/posts/' + postid)
 
         // NUKREIPIMAS I KITUS USERIO POSTUS
 
-        document.querySelector('#other-posts-link').href = 'otheruserposts.html?user_id=' + post.userId
+        document.querySelector('#other-posts-link').href = 'otherposts.html?user_id=' + post.userId
 
     })
